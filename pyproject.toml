@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "repl_python3_YTUSU-Thread-MSSQL"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.0.1"
+mysql_connector = "^2.2.9"
+tabulate = "^0.8.9"
+discord = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
